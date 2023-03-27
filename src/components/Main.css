@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.3rem 2rem;
+    position: relative;
+}
+.main-container .search-filter{
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-container table{
+    width: 100%;
+}
+.main-container table thead{
+    width: 100%;
+    text-align: left;
+    background-color:navy;
+    color: white;
+    height: 2rem;
+}
+.main-container table tbody tr{
+    height: 1.5rem;
+}
+.main-container table tbody tr:nth-child(even){
+    background-color: rgb(95, 94, 99);
+}
+th,td{
+  text-align: center;  
+}
+
